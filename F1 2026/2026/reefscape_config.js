@@ -1,10 +1,10 @@
 var config_data = `
 {
   "dataFormat": "tsv",
-  "title": "Reefscape Scouting 2025",
-  "page_title": "REEFSCAPE",
+  "title": "F1 2026 Tracker",
+  "page_title": "Formula One",
   "checkboxAs": "10",
-  "prematch": [
+  "Event": [
     { "name": "Scouter Initials",
       "code": "s",
       "type": "scouter",
@@ -64,7 +64,7 @@ var config_data = `
       "shape": "circle 5 black red true"
     }
   ],
-  "auton": [
+  "Free Practice": [
     { "name": "Leave Starting Zone",
       "code": "al",
       "type": "bool"
@@ -102,7 +102,7 @@ var config_data = `
       "type": "counter"
     }
   ],
-  "teleop": [
+  "Qualifying": [
     { "name": "L4 Coral Scores",
       "code": "tc4",
       "type": "counter"
@@ -136,7 +136,7 @@ var config_data = `
       "type": "counter"
     }
   ],
-  "endgame": [
+  "Race": [
     { "name": "Barge Timer",
       "code": "eb",
       "type": "timer"
@@ -154,7 +154,7 @@ var config_data = `
       "defaultValue": "2"
     }
   ],
-  "postmatch": [
+  "Misc": [
     { "name": "Died/Immobilized",
       "code": "die",
       "type": "bool"
