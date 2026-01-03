@@ -32,7 +32,7 @@ var config_data = `
         "lv": "Las Vegas<br>",
         "qa": "Qatar<br>",
         "ad": "Abu Dhabi<br>",
-      },
+      }
     { "name": "Event",
       "code": "e",
       "type": "event",
