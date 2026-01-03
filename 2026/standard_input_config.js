@@ -31,14 +31,11 @@ var config_data = `
         "br": "Brazil<br>",
         "lv": "Las Vegas<br>",
         "qa": "Qatar<br>",
-        "ad": "Abu Dhabi<br>",
-      }
-    { "name": "Event",
-      "code": "e",
-      "type": "event",
-      "defaultValue": "NA",
-      "required": "true"
-    }
+        "ad": "Abu Dhabi<br>"
+        },
+            "defaultValue": "NA",
+            "required": "true"
+        }
       ],
   "Free Practice": [
     { "name": "Leave Starting Zone",
